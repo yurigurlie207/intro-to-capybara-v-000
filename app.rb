@@ -5,7 +5,7 @@ class Application < Sinatra::Base
    end
 
    # New route to respond to the form submission
-post '/greet' do
-  erb :greet
-end
+  post '/greet' do
+    erb :greet
+  end
 end
